@@ -73,6 +73,16 @@ padding:10px 0;
 margin-left:30px;
 border-radius: 50px;
 }
+
+#schedule {
+  /* display:inline-block; */
+  /* max-width:100%; */
+  padding:0px;
+  /* margin-left:5px; */
+  margin:5px;
+  border-radius: 0px;
+}
+
 .Aboutme-section{
   width: 600px;
   height:400px;
@@ -151,11 +161,22 @@ line-height:30px;
 .placeholder1, .placeholder2, .placeholder3{
   border: solid 10px #aed6dc;
   width: 300px;
-  height: 200px;
+  height: 300px;
   padding:20px;
   flex-basis: 20%; 
   text-align: center;
-  line-height: 30px; 
+  line-height: 0px; 
+}
+#image_text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+  position:relative;
+  top:25px;
+  font-size: larger;
+  /* right:2px; */
+  margin:50px;
+  padding:7px;
+  border: solid 5px #aed6dc;
 }
 
   @media screen and (max-width:1024px){
