@@ -82,6 +82,15 @@ border-radius: 50px;
   margin:5px;
   border-radius: 0px;
 }
+#weather {
+  border-radius: 0px;
+  margin:2px;
+}
+
+#note {
+  border-radius: 0px;
+  margin:2px;
+}
 
 .Aboutme-section{
   width: 600px;
@@ -167,17 +176,7 @@ line-height:30px;
   text-align: center;
   line-height: 0px; 
 }
-#image_text{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:white;
-  position:relative;
-  top:25px;
-  font-size: larger;
-  /* right:2px; */
-  margin:50px;
-  padding:7px;
-  border: solid 5px #aed6dc;
-}
+
 
   @media screen and (max-width:1024px){
     body{
